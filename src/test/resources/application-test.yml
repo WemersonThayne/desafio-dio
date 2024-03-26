@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 3
+  flyway:
+    locations: classpath:db/test-migration,classpath:db/migration
